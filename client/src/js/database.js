@@ -22,7 +22,7 @@ export const putDb = async (content) => {
 
   const store =  trans.objectStore('jate');
 
-  const request = store.add({ stuffToBeAdded });
+  const request = store.put({ id: 1, jate: content });
 
   const result = await request;
   console.log("Things occured, and stuff got stored in the Db...", result)
@@ -38,7 +38,7 @@ export const getDb = async () => {
 
   const store =  trans.objectStore('jate');
 
-  const request = store.add({ stuffToBeAdded });
+  const request = store.getAll();
 
   const result = await request;
   console.log("We're back from our journey. Here is the data", result)
