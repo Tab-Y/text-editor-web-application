@@ -2,7 +2,8 @@
 
 ## Description 
 
-This project was an attempt to create a text editor.
+This project was an attempt to create a text editor. It has offline funcationality, online functionality, stores data via a cache for quick access and offline viewing.
+
  
 ## Table of Contents
  
@@ -13,20 +14,17 @@ This project was an attempt to create a text editor.
 
 ##  Installation 
 
-Install the stuff  
+Use the `npm install` command to install all needed modules
+
+Run `npm start` for the scripts to build webpacks, open servers for server side and client side.
 
 ## Usage 
 
-edits text 
+Deployed application :  https://text-editor-2022-12.herokuapp.com/
 
-![Descriptive text](assets/images/screenshot.png) 
+![screen shot of deployed application](./assets/img/screenshot.png) 
 
 
 ## Questions 
 
 If you have any questions or concerns, please reach out to Tab-Y at tlyoumans@gmail.com. 
-
-## Tests 
-
-None at this time
-
